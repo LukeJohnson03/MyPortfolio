@@ -4,12 +4,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-lg fixed top-0 left-0 w-full">
+    <nav className="bg-zinc-700 shadow-lg fixed top-0 left-0 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Site Name */}
-          <div className="flex-shrink-0">
-            <a href="/" className="text-2xl font-bold text-gray-800">
+          <div className="flex-shrink-0 ml-7">
+            <a href="/" className="text-2xl font-bold text-white">
               MySite
             </a>
           </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="flex space-x-10">
               <a
                 href="#"
-                className="text-lg text-gray-700 hover:text-gray-900 px-3 py-2 font-medium"
+                className="text-white hover:text-lime-500 px-3 py-2 font-bold size-10"
               >
                 Home
               </a>
