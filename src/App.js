@@ -67,8 +67,14 @@ function App() {
     <h1 className="text-8xl font-bold tracking-tight sm:text-6xl text-gray-200">
       Welcome to My Portfolio
     </h1>
+    <p className="mt-6 text-4xl leading-8 font-bold text-white">
+      Hi.
+    </p>
+    <p className="mt-6 text-3xl leading-8 font-semibold text-white">
+      My name is Luke Johnson
+    </p>
     <p className="mt-6 text-2xl leading-8 text-white">
-      Hi my name is Luke Johnson, I'm an aspiring software developer with a Bachelor's degree in computer and information sciences specifically in application development. I have worked with a variety of languages, frameworks and technologies, and I would like to showcase my skills as well as a few of things I've done over the years!
+      I'm an aspiring software developer with a Bachelor's degree in computer and information sciences specifically in application development. I have worked with a variety of languages, frameworks and technologies, and I would like to showcase my skills as well as a few of things I've done over the years!
     </p>
     <div className="mt-10 flex justify-center gap-x-6">
       <a
