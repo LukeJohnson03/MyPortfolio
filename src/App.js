@@ -62,29 +62,28 @@ function App() {
     />
   </div>
 
-  {/* Hero Content */}
-  <div className="mx-auto max-w-3xl text-center py-32 sm:py-48 lg:py-56">
-    <h1 className="text-8xl font-bold tracking-tight sm:text-6xl text-gray-200">
-      Welcome to My Portfolio
-    </h1>
-    <p className="mt-6 text-4xl leading-8 font-bold text-white">
-      Hi.
-    </p>
-    <p className="mt-6 text-3xl leading-8 font-semibold text-white">
-      My name is Luke Johnson
-    </p>
-    <p className="mt-6 text-2xl leading-8 text-white">
-      I'm an aspiring software developer with a Bachelor's degree in computer and information sciences specifically in application development. I have worked with a variety of languages, frameworks and technologies, and I would like to showcase my skills as well as a few of things I've done over the years!
-    </p>
-    <div className="mt-10 flex justify-center gap-x-6">
-      <a
-        href="#projects"
-        className="rounded-md bg-indigo-600 px-4 py-2 text-2xl font-semibold text-white hover:bg-indigo-500"
-      >
-        View Projects
-      </a>
-    </div>
+  <div className="mx-auto max-w-3xl text-center py-32 sm:py-48 lg:py-36 mt-2">
+  <h1 className="text-8xl font-bold tracking-tight sm:text-6xl lg:py-1 text-gray-200 animate-fade-in">
+    Welcome to My Portfolio
+  </h1>
+  <p className="mt-6 text-4xl leading-8 font-bold text-white animate-fade-in delay-200">
+    Hi.
+  </p>
+  <p className="mt-6 text-3xl leading-8 font-semibold text-white animate-fade-in delay-400">
+    My name is Luke Johnson
+  </p>
+  <p className="mt-6 text-2xl leading-8 text-white animate-fade-in delay-600">
+    I'm an aspiring software developer with a Bachelor's degree in computer and information sciences specifically in application development. I have worked with a variety of languages, frameworks and technologies, and I would like to showcase my skills as well as a few of things I've done over the years!
+  </p>
+  <div className="mt-10 flex justify-center gap-x-6 animate-fade-in delay-800">
+    <a
+      href="#projects"
+      className="rounded-md bg-indigo-600 px-4 py-2 text-2xl font-semibold text-white hover:bg-indigo-500"
+    >
+      View Projects
+    </a>
   </div>
+</div>
 </main>
 
   <section id="projects" className="py-16">
