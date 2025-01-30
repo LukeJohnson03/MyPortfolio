@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="bg-zinc-800 text-gray-200">
     
-      <main className="relative isolate px-6 pt-24 lg:px-8 bg-gray-800">
+    <main className="relative isolate px-6 pt-24 lg:px-8 bg-gray-800"> 
       <div
         className="absolute inset-0 -z-10 overflow-hidden"
         aria-hidden="true"
@@ -25,7 +25,7 @@ const Home = () => {
       </div>
     
       <div className="mx-auto max-w-3xl text-center py-32 sm:py-48 lg:py-36 mt-2">
-      <h1 className="text-8xl font-bold tracking-tight sm:text-6xl lg:py-1 text-gray-200 animate-fade-in">
+      <h1 className= "text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-gray-200 animate-fade-in">
         Welcome to My Portfolio
       </h1>
       <p className="mt-6 text-4xl leading-8 font-bold text-white animate-fade-in delay-200">
