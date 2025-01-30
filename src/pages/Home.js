@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="bg-zinc-800 text-gray-200">
     
-      <main className="relative isolate px-6 pt-24 lg:px-8 bg-gray-800">
+    <main className="relative isolate px-6 pt-24 lg:px-8 bg-gray-800"> 
       <div
         className="absolute inset-0 -z-10 overflow-hidden"
         aria-hidden="true"
