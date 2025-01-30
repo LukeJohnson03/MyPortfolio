@@ -34,7 +34,7 @@ function Projects() {
                     'A comprehensive finance management app for tracking income, expenses, and goals.',
                 },
                 {
-                  img: '/Timewise Logo.png',
+                  img: '/TimeWise Logo.png',
                   title: 'TimeWise',
                   description:
                     'A time management app for creating timesheets, scheduling events, and tracking progress.',

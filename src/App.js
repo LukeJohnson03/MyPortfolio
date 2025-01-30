@@ -26,9 +26,10 @@ function App() {
               <a href="#skills" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
                 Skills
               </a>
-              <a href="/contact" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
-                Contact
-              </a>
+              <Link to="/contact" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
+                 Contact
+              </Link>
+
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
