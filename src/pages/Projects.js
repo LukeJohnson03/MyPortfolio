@@ -55,10 +55,7 @@ function Projects() {
                   />
                   <h3 className="text-xl font-bold text-gray-200">{project.title}</h3>
                   <p className="mt-2 text-gray-400">{project.description}</p>
-                  <a
-                    href="#"
-                    className="mt-4 self-start rounded-md bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-500"
-                  >
+                  <a href="/projects/details" className="mt-4 self-start rounded-md bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-500">
                     View Details
                   </a>
                 </motion.div>
