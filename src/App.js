@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
               <a href="#skills" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
                 Skills
               </a>
-              <a href="#contact" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
+              <a href="/contact" className="text-2xl font-semibold text-gray-200 hover:text-indigo-400">
                 Contact
               </a>
             </div>
@@ -43,6 +44,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
