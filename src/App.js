@@ -30,7 +30,7 @@ function App() {
             </div>
 
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#cv" className="text-2xl font-semibold text-indigo-400 hover:text-indigo-300">
+              <a href="/lukeJohnsonCV.pdf" download= "LukeJohnsonCV.pdf" className="text-2xl font-semibold text-indigo-400 hover:text-indigo-300">
                 Download CV <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -48,6 +48,9 @@ function App() {
               <Link to="/projects" className="text-xl text-gray-200 font-semibold hover:text-indigo-400" onClick={() => setMobileMenuOpen(false)}>Projects</Link>
               <a href="#skills" className="text-xl text-gray-200 font-semibold hover:text-indigo-400" onClick={() => setMobileMenuOpen(false)}>Skills</a>
               <Link to="/contact" className="text-xl text-gray-200 font-semibold hover:text-indigo-400" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
+              <a href="/lukeJohnsonCV.pdf" download= "LukeJohnsonCV.pdf" className="text-xl font-semibold text-indigo-400 hover:text-indigo-300">
+                Download CV <span aria-hidden="true">→</span>
+              </a>
             </nav>
           </div>
         </Dialog>
