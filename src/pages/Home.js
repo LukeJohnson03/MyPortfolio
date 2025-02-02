@@ -59,7 +59,9 @@ const Home = () => {
               </p>
               <div className="mt-10 flex justify-center gap-x-6 animate-fade-in delay-800">
         <a
-          href="#projects"
+          href="/Graduation_Letter_1737105490463.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-2xl bg-indigo-600 px-4 py-2 text-2xl font-semibold text-white hover:bg-indigo-500"
         >
           View Certificate
