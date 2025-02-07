@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { motion } from "framer-motion";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
