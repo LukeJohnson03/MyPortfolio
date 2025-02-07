@@ -60,6 +60,7 @@ const Home = () => {
               <div className="mt-10 flex justify-center gap-x-6 animate-fade-in delay-800">
         <a
           href="/Graduation_Letter_1737105490463.pdf"
+          download="Graduation_Letter_1737105490463.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-2xl bg-indigo-600 px-4 py-2 text-2xl font-semibold text-white hover:bg-indigo-500"
@@ -76,7 +77,6 @@ const Home = () => {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-5xl font-bold text-gray-200">My Skills</h2>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            {/* List your skills */}
             <div className="group relative w-28 h-28 bg-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105 flex items-center justify-center">
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
@@ -226,6 +226,7 @@ const Home = () => {
           <h2 className="text-5xl font-bold text-gray-200 mt-0">Social Links</h2>
     <div class="flex items-center gap-4 justify-center mt-6">
       <div class="social-button">
+        <a href="https://github.com/LukeJohnson03">
         <button class="relative w-12 h-12 rounded-full group">
           <div
             class="floater w-full h-full absolute top-0 left-0 bg-black rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"
@@ -247,9 +248,12 @@ const Home = () => {
             </svg>
           </div>
         </button>
+        </a>
       </div>
       <div class="social-button">
+        <a href="https://www.linkedin.com/in/luke-johnson-a95484248/">
         <button class="relative w-12 h-12 rounded-full group">
+          
           <div
             class="floater w-full h-full absolute top-0 left-0 bg-blue-500 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"
           ></div>
@@ -270,6 +274,7 @@ const Home = () => {
             </svg>
           </div>
         </button>
+        </a>
       </div>
       <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">
@@ -298,10 +303,11 @@ const Home = () => {
         </div>
       </section>
       <footer className="bg-gray-900 py-6">
-        <div className="text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} Luke Johnson. All rights reserved.
-        </div>
-      </footer>
+          <div className="text-center text-gray-400 text-sm">
+            © {new Date().getFullYear()} Luke Johnson. All rights reserved. 
+            Made with React.js and Tailwind CSS
+          </div>
+        </footer>
     </div>
       );
     }
