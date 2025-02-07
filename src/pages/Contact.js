@@ -105,7 +105,8 @@ const Contact = () => {
   
         <footer className="bg-gray-900 py-6">
           <div className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Luke Johnson. All rights reserved.
+            © {new Date().getFullYear()} Luke Johnson. All rights reserved. 
+            Made with React.js and Tailwind CSS
           </div>
         </footer>
       </div>

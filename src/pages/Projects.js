@@ -57,6 +57,7 @@ function Projects() {
                   <p className="mt-2 text-gray-400">{project.description}</p>
                   <a href="/projects/details" className="mt-4 self-start rounded-md bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-500">
                     View Details
+                    (Coming Soon!)
                   </a>
                 </motion.div>
               ))}
@@ -66,10 +67,11 @@ function Projects() {
       </main>
 
       <footer className="bg-gray-900 py-6">
-        <div className="text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} Luke Johnson. All rights reserved.
-        </div>
-      </footer>
+          <div className="text-center text-gray-400 text-sm">
+            © {new Date().getFullYear()} Luke Johnson. All rights reserved. 
+            Made with React.js and Tailwind CSS
+          </div>
+        </footer>
     </div>
   );
 }
