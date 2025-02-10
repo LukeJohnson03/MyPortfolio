@@ -20,13 +20,13 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        setStatus("Message sent! ✅");
+        setStatus("Message sent!");
         setFormData({ name: "", email: "", message: "" }); 
       } else {
-        setStatus("Failed to send message ❌. Try again.");
+        setStatus("Failed to send message. Try again.");
       }
     } catch (error) {
-      setStatus("Something went wrong ❌.");
+      setStatus("Something went wrong.");
     }
   };
 

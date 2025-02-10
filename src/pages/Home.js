@@ -1,6 +1,13 @@
 import React from 'react';
 import '../App.css';
 
+async function copyEmail() {
+  const email = "lukejohnsonlgj905@gmail.com"; 
+  navigator.clipboard.writeText(email)
+    .then(() => alert("Email copied to clipboard!"))
+    .catch(err => console.error("Error copying text: ", err));
+}
+
 const Home = () => { 
     return (
         <div className="bg-zinc-800 text-gray-200">
@@ -276,29 +283,31 @@ const Home = () => {
         </button>
         </a>
       </div>
-      <div class="social-button">
-        <button class="relative w-12 h-12 rounded-full group">
-          <div
-            class="floater w-full h-full absolute top-0 left-0 bg-red-400 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"
-          ></div>
-          <div
-            class="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-red-400 rounded-full"
-          >
-            <svg
-              height="32"
-              width="32"
-              viewBox="0 0 32 32"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                class="group-hover:fill-[#171543] fill-white duration-300"
-                d="M28 5H4c-1.104 0-2 .896-2 2v18c0 1.104.896 2 2 2h24c1.104 0 2-.896 2-2V7c0-1.104-.896-2-2-2zm0 4.879L16 18 4 9.879V7l12 8 12-8v2.879zM4 23V11.885l11.446 7.63c.269.18.594.274.921.274s.652-.094.92-.274L28 11.885V23H4z"
-                fill="#FFFFFF"
-              ></path>
-            </svg>
-          </div>
-        </button>
-      </div>
+      <div className="social-button">
+  <button 
+    onClick={copyEmail} 
+    className="relative w-12 h-12 rounded-full group"
+  >
+    <div
+      className="floater w-full h-full absolute top-0 left-0 bg-red-600 rounded-full duration-300 group-hover:-top-8 group-hover:shadow-2xl"
+    ></div>
+    <div
+      className="icon relative z-10 w-full h-full flex items-center justify-center border-2 border-red-600 rounded-full"
+    >
+      <svg
+        height="24"
+        width="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          className="group-hover:fill-[#171543] fill-white duration-300"
+          d="M12 12.713l-11.985-8.713h23.97l-11.985 8.713zm-12-9.713v18h24v-18h-24zm12 10.287l-12-8.287v16h24v-16l-12 8.287z"
+        ></path>
+      </svg>
+    </div>
+  </button>
+</div>
     </div>
         </div>
       </section>
