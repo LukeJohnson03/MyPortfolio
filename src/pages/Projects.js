@@ -13,7 +13,7 @@ function Projects() {
         <div className="mx-auto max-w-4xl text-center py-16">
           <h1 className="text-6xl font-bold tracking-tight text-gray-200">Projects</h1>
           <p className="mt-6 text-2xl text-gray-400">
-            A showcase of my latest work and accomplishments.
+            A showcase of my latest work.
           </p>
         </div>
 
