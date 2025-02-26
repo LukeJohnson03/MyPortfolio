@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
 const handleDownloadCV = () => {
-  const pdfUrl = "/lukeJohnsonCV.pdf";
+  const pdfUrl = "/LukeJohnsonCV.pdf";
 
   window.open(pdfUrl, "_blank");
 
